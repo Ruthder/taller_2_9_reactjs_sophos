@@ -1,0 +1,31 @@
+.card-button {
+  position: relative;
+  border: none;
+  background-color: #F9F9F9;
+  font-size: x-large;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.card-button:focus {
+  border: none;
+  outline: none;
+}
+
+.card-button:focus{
+  outline:none !important;
+}
+
+.card-button div{
+  position: absolute;
+  top: -6px;
+  left: 0px;
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 0px;
+  height: 0px;
+  border: 2px solid transparent;
+  border-top: 0;
+  border-bottom: 4px solid #FFD24C;
+}
